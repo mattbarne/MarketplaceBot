@@ -26,7 +26,7 @@ driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()
 
 # TODO: MAKE URL DYNAMIC VIA EXTENTION?
 # Sets URL to the website
-url = "https://www.facebook.com/marketplace/item/1325224855170513/?ref=browse_tab&referral_code=marketplace_top_picks&referral_story_type=top_picks"
+url = ""
 
 if not url:
     raise ValueError("The URL variable must be assigned a string!")
